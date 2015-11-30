@@ -1,0 +1,59 @@
+body {
+
+  background: black;
+  color: white;
+  transition: background 2s;
+  padding-top: 100px;
+
+}
+
+body span {
+
+  float: left;
+
+}
+
+body.unscrambled {
+  
+  background: white;
+  color: black;
+  transition: background 2s;
+}
+
+body.unscrambled br {
+
+  display: none;
+
+}
+
+body.unscrambled span {
+
+  min-height: 10px;
+  min-width: 3px;
+
+}
+
+body button#scrambler {
+
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  right: 100px;
+  background: yellow;
+  font-weight: 200;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  font-size: 12px;
+  transition: font-size 0.5s, font-weight 0.5s;
+
+}
+
+body button#scrambler:hover {
+
+  font-size: 18px;
+  font-weight: 900;
+  transition: font-size 0.5s, font-weight 0.5s;
+
+}
